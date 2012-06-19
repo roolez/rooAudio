@@ -1,0 +1,12 @@
+include:
+
+#include <s3eTypes.h>
+
+functions:
+
+
+void rooAudio_init() run_on_os_thread
+void rooAudio_play(const char * filename) run_on_os_thread
+void rooAudio_stop() run_on_os_thread
+
+

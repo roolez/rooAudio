@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the rooAudio extension on iphone
+platform IPHONE
+
+options
+{
+    lib
+    output-name="lib/iphone/librooAudio.a"
+    output-name-debug="lib/iphone/librooAudio_d.a"
+}
+define S3E_BUILD_EXT
+
+subproject rooAudio_build
