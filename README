@@ -1,0 +1,17 @@
+
+
+
+rooAudio is short term fix for Marmalade SDK 6.0.x
+Marmalade SDK stopped to play mp3, m4a files for me and few other developers.
+
+
+Usage
+
+play(filename) -  plays audio in a loop
+stop() - stops to play audio
+
+License
+
+This extension is developed by Artem Babenko http://www.roolez.com/
+rooAudio is licensed under the terms of new BSD liecense
+
